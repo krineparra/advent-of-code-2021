@@ -1,4 +1,4 @@
-with open('noel03data.txt') as file:
+with open('02-data.txt') as file:
     horizontal_position = 0
     depth = 0
     data = file.readlines()

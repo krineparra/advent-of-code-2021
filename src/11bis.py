@@ -1,4 +1,4 @@
-with open('noel20data.txt') as file :
+with open('11-data.txt') as file :
     data = [list(map(int,list(d[:-1]))) for d in file.readlines()]
 len_data = len(data)
 not_flash = 1

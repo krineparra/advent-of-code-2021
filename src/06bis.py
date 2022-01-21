@@ -1,4 +1,4 @@
-with open('noel11data.txt') as file:
+with open('06-data.txt') as file:
     data=list(map(int,(file.readlines())[0].split(',')))
 
 fish = 9*[0]

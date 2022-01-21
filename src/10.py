@@ -1,6 +1,6 @@
 car = {'}': '{', '>': '<', ')': '(', ']': '['}
 car_point = {'}': 1197, '>': 25137, ')': 3, ']': 57}
-with open('noel18data.txt') as file:
+with open('10-data.txt') as file:
     data = [d[:-1] for d in file.readlines()]
 result = 0
 for d in data:

@@ -1,4 +1,4 @@
-with open('noel17data.txt') as file:
+with open('09-data.txt') as file:
     data = [list(map(int, list(d))) for d in [d[:-1] for d in file.readlines()]]
 
 

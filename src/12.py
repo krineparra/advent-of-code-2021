@@ -1,4 +1,4 @@
-with open('noel22data.txt') as file:
+with open('12-data.txt') as file:
     data = [line.split('-') for line in [d[:-1] for d in file.readlines()]]
     data = data + [d[::-1] for d in data if 'start' not in d and 'end' not in d and d[0].isupper()]
 print(data)

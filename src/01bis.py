@@ -1,4 +1,4 @@
-with open('noel01data.txt') as file:
+with open('01-data.txt') as file:
     data = file.readlines()
     data2=[]
     for i in range(3,len(data)):

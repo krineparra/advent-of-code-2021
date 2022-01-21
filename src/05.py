@@ -1,4 +1,4 @@
-with open('noel09data.txt') as file:
+with open('05-data.txt') as file:
     data = [i[:-1] if i[-1] == '\n' else i for i in file.readlines()]
     zones_temp = [d.split(' -> ') for d in data]
     zones = [[list(map(int, zone[0].split(','))), list(map(int, zone[1].split(',')))] for zone in zones_temp]

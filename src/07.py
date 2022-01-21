@@ -1,4 +1,4 @@
-with open('noel13data.txt') as file:
+with open('07-data.txt') as file:
     data = list(map(int, file.readlines()[0].split(',')))
 # print(data)
 min = min(d for d in data)

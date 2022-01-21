@@ -1,7 +1,7 @@
 car = {'}': '{', '>': '<', ')': '(', ']': '['}
 car2 = {'{': '}', '<': '>', '(': ')', '[': ']'}
 car_point = {'}': 3, '>': 4, ')': 1, ']': 2}
-with open('noel18data.txt') as file:
+with open('10-data.txt') as file:
     data = [d[:-1] for d in file.readlines()]
 result = []
 for d in data:

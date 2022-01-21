@@ -1,7 +1,7 @@
 # https://adventofcode.com/2021/day/3#part2
 # oxygen_generator_rating = 0
 
-with open('noel05data.txt') as file:
+with open('03-data.txt') as file:
     data = list(map(lambda x: x.rstrip('\n'), file.readlines()))
     for i in range(len(data[0])):
         print('-----------------------')

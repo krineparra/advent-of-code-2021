@@ -1,8 +1,8 @@
 import re
 
-with open('noel15data.txt') as file:
+with open('08-data.txt') as file:
     data1 = [d[61:-1].split(' ') for d in file.readlines()]
-with open('noel15data.txt') as file:
+with open('08-data.txt') as file:
     data2 = [d[:58].split(' ') for d in file.readlines()]
 score = 0
 for i in range(len(data2)):

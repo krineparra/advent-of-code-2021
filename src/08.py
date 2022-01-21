@@ -1,4 +1,4 @@
-with open('noel15data.txt') as file:
+with open('08-data.txt') as file:
     data = [d[61:-1].split(' ') for d in file.readlines()]
 print(data)
 result = 0
